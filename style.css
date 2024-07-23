@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#head {
+  padding-top: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading {
+  background-color: #064b55;
+  font-size: 28px;
+  padding: 0 0 24px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.row {
+  display: flex;
+}
+.box {
+  height: 130px;
+  border: 3px solid black;
+  width: 130px;
+  font-size: 40px;
+  cursor: pointer;
+  background-color: #edae49;
+  color: white;
+}
+.game {
+  margin-top: 50px;
+  margin-left: 445px;
+}
+#bt-bl {
+  border-top: 0;
+  border-left: 0;
+}
+#bt {
+  border-top: 0;
+}
+#bt-br {
+  border-top: 0;
+  border-right: 0;
+}
+#bl {
+  border-left: 0;
+}
+#br {
+  border-right: 0;
+}
+#bb-bl {
+  border-bottom: 0;
+  border-left: 0;
+}
+#bb-br {
+  border-bottom: 0;
+  border-right: 0;
+}
+#bb {
+  border-bottom: 0;
+}
+
+.new-game {
+  padding: 7px;
+  background-color: #064b55;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 0.5rem;
+  margin-left: 570px;
+  margin-top: 20px;
+  border: 0;
+  cursor: pointer;
+}
+.reset-game {
+  padding: 7px;
+  background-color: #064b55;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 0.5rem;
+  margin-left: 118px;
+  margin-top: 30px;
+  border: 0;
+  cursor: pointer;
+  border-top-left-radius: 0;
+}
+.msg {
+  text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 30px;
+}
+.hide {
+  display: none;
+}
